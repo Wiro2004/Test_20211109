@@ -21,7 +21,7 @@ namespace Test_20211109
         private void Form1_Load(object sender, EventArgs e)
         {
             ucet1 = new Ucet("Jan Novák", 10000);
-            Zobraz(ucet1);  //tady mi to nefunguje
+            Zobraz(ucet1);  //tady mi to nefunguje, nemám tušení proč
         }
 
         private void Zobraz(Ucet ucet)
@@ -51,6 +51,8 @@ namespace Test_20211109
             Zobraz(ucet1);
           
         }
+
+
     }
 }
 

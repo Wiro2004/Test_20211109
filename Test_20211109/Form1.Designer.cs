@@ -198,6 +198,7 @@
             this.Controls.Add(this.jmeno);
             this.Name = "Form1";
             this.Text = "Form1";
+
             ((System.ComponentModel.ISupportInitialize)(this.vlozitN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vybratN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zaplatitN)).EndInit();
