@@ -27,29 +27,29 @@ namespace Test_20211109
         private void Zobraz(Ucet ucet)
         {
 
-            jmenolbl.Text = "" +ucet.jmeno;
+            jmenolbl.Text = ucet.jmeno;
             stavlbl.Text = "" + ucet.stav;
         }
 
         private void vlozitNN_Click(object sender, EventArgs e)
         {
-            var vlozeno = ucet1.vlozit((int)vlozitN.Value);
+           ucet1.vlozit((int)vlozitN.Value);
             Zobraz(ucet1);
-            MessageBox.Show($"Vložil jste {vlozeno} kč");
+           
         }
 
         private void vybratNN_Click(object sender, EventArgs e)
         {
-           var vybrano = ucet1.vybrat((int)vybratN.Value);
+           ucet1.vybrat((int)vybratN.Value);
             Zobraz(ucet1);
-            MessageBox.Show($"Vybral jste {vybrano} kč");
+          
         }
 
         private void zaplatitNN_Click(object sender, EventArgs e)
         {
-            var zaplaceno = ucet1.zaplat((int)zaplatitN.Value);
+            ucet1.zaplat((int)zaplatitN.Value);
             Zobraz(ucet1);
-            MessageBox.Show($"Zaplatil jste {zaplaceno} kč");
+          
         }
     }
 }
