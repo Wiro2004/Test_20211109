@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Test_20211109
+
+    // Vilém Rössler
 {
     public partial class Form1 : Form
     {
